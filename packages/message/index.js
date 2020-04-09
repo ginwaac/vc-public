@@ -1,0 +1,7 @@
+import message from './message.vue'
+
+message.install = function (Vue) {
+  Vue.component(message.name, message)
+}
+
+export default message
