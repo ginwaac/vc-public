@@ -1,9 +1,9 @@
 // 导入组件
-import Message from './message'
+import message from './message'
 
 // 组件列表
 const components = [
-  Message
+  message
 ]
 
 // 定义install方法，接收Vue作为参数。如果使用use注册插件，则所有的组件都将被注册
@@ -23,5 +23,5 @@ export default {
   // 导出的对象必须具有install，才能被Vue.use()方法安装
   install,
   // 以下是具体的组件列表
-  Message
+  message
 }
